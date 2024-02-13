@@ -18,5 +18,6 @@ public class Criptografia{
             for(int j = texto.length() / 2; j < texto.length(); ++j) texto.setCharAt(j, (char)(texto.charAt(j) - 1));
             System.out.println(texto);
         }
+        in.close();
     }
 }
