@@ -6,5 +6,6 @@ public class Consumo{
         int x = in.nextInt();
         double y = in.nextDouble();
         System.out.printf("%.3f km/l\n", x / y);
+        in.close();
     }
 }

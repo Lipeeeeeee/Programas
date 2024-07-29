@@ -6,5 +6,6 @@ public class ProdutoSimples{
         int x = in.nextInt();
         int y = in.nextInt();
         System.out.println("PROD = " + (x * y));
+        in.close();
     }
 }

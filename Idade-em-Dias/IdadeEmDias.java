@@ -5,5 +5,6 @@ public class IdadeEmDias{
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         System.out.println(n / 365 + " ano(s)\n" + n % 365 / 30 + " mes(es)\n" + n % 365 % 30 + " dia(s)");
+        in.close();
     }
 }

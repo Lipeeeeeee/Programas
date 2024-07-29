@@ -6,5 +6,6 @@ public class SomaSimples{
         int a = in.nextInt();
         int b = in.nextInt();
         System.out.println("SOMA = " + (a + b));
+        in.close();
     }
 }

@@ -6,5 +6,6 @@ public class GastoDeCombustivel{
         double tempo = in.nextDouble();
         double kmh = in.nextDouble();
         System.out.printf("%.3f\n", tempo * kmh / 12);
+        in.close();
     }
 }

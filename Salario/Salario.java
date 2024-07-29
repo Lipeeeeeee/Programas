@@ -7,5 +7,6 @@ public class Salario{
         int hours = in.nextInt();
         double money = in.nextDouble();
         System.out.printf("NUMBER = " + number + "\nSALARY = U$ %.2f\n", hours * money);
+        in.close();
     }
 }

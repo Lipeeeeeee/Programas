@@ -5,5 +5,6 @@ public class Distancia{
         Scanner in = new Scanner(System.in);
         int dist = in.nextInt();
         System.out.println((dist * 2) + " minutos");
+        in.close();
     }
 }

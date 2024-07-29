@@ -7,5 +7,6 @@ public class SalarioComBonus{
         double salario = in.nextDouble();
         double vendas = in.nextDouble();
         System.out.printf("TOTAL = R$ %.2f\n", salario + vendas * 0.15);
+        in.close();
     }
 }

@@ -7,5 +7,6 @@ public class Media2{
         double b = in.nextDouble();
         double c = in.nextDouble();
         System.out.printf("MEDIA = %.1f\n", (a * 2 + b * 3 + c * 5) / 10);
+        in.close();
     }
 }

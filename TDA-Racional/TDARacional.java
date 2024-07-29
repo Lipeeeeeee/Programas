@@ -39,5 +39,6 @@ public class TDARacional{
             }
             System.out.println(N1 + "/" + D1);
         }
+        in.close();
     }
 }
